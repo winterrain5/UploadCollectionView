@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49857CE92011BE0B009B2681 /* KSPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CDF2011BE0B009B2681 /* KSPhotoBrowser.m */; };
+		49857CEA2011BE0B009B2681 /* KSPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CE12011BE0B009B2681 /* KSPhotoView.m */; };
+		49857CEB2011BE0B009B2681 /* KSProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CE22011BE0B009B2681 /* KSProgressLayer.m */; };
+		49857CEC2011BE0B009B2681 /* KSYYImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CE32011BE0B009B2681 /* KSYYImageManager.m */; };
+		49857CED2011BE0B009B2681 /* KSPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CE72011BE0B009B2681 /* KSPhotoItem.m */; };
+		49857CF02011BE2B009B2681 /* BKUploadImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CEF2011BE2B009B2681 /* BKUploadImageCell.m */; };
+		49857CF32011BEA7009B2681 /* BKUploadAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CF22011BEA7009B2681 /* BKUploadAddCell.m */; };
+		49857CF62011BEEC009B2681 /* BKUploadImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CF52011BEEC009B2681 /* BKUploadImageModel.m */; };
+		49857CFA2011D170009B2681 /* BKSystemCameraPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CF92011D170009B2681 /* BKSystemCameraPhotoTool.m */; };
+		49857D002011EF80009B2681 /* BKProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49857CFE2011EF7F009B2681 /* BKProgressBarView.m */; };
+		49FA353520108C34007D6B46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FA353420108C34007D6B46 /* AppDelegate.m */; };
+		49FA353820108C34007D6B46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FA353720108C34007D6B46 /* ViewController.m */; };
+		49FA353B20108C34007D6B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FA353920108C34007D6B46 /* Main.storyboard */; };
+		49FA353D20108C34007D6B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FA353C20108C34007D6B46 /* Assets.xcassets */; };
+		49FA354020108C34007D6B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FA353E20108C34007D6B46 /* LaunchScreen.storyboard */; };
+		49FA354320108C34007D6B46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FA354220108C34007D6B46 /* main.m */; };
+		49FA354D20108C5D007D6B46 /* BKUploadCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FA354C20108C5D007D6B46 /* BKUploadCollectionView.m */; };
+		49FA355B2010906E007D6B46 /* imageerror.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA354F2010906D007D6B46 /* imageerror.png */; };
+		49FA355C2010906E007D6B46 /* placeholderimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35502010906D007D6B46 /* placeholderimage.png */; };
+		49FA355D2010906E007D6B46 /* placeholderimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35512010906D007D6B46 /* placeholderimage@2x.png */; };
+		49FA355E2010906E007D6B46 /* imageerror@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35522010906D007D6B46 /* imageerror@3x.png */; };
+		49FA355F2010906E007D6B46 /* addimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35532010906D007D6B46 /* addimage@2x.png */; };
+		49FA35602010906E007D6B46 /* imageerror@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35542010906D007D6B46 /* imageerror@2x.png */; };
+		49FA35612010906E007D6B46 /* deleteimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35552010906E007D6B46 /* deleteimage.png */; };
+		49FA35622010906E007D6B46 /* addimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35562010906E007D6B46 /* addimage.png */; };
+		49FA35632010906E007D6B46 /* placeholderimage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35572010906E007D6B46 /* placeholderimage@3x.png */; };
+		49FA35642010906E007D6B46 /* deleteimage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35582010906E007D6B46 /* deleteimage@3x.png */; };
+		49FA35652010906E007D6B46 /* deleteimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA35592010906E007D6B46 /* deleteimage@2x.png */; };
+		49FA35662010906E007D6B46 /* addimage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FA355A2010906E007D6B46 /* addimage@3x.png */; };
+		CDD933FA537BBF022AEE0089 /* libPods-BKUploadCollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68337BC083D00C1E4932C89B /* libPods-BKUploadCollectionView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17D0E6AB2D3F4E8D3673559B /* Pods-BKUploadCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKUploadCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKUploadCollectionView/Pods-BKUploadCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		49857CDE2011BE0B009B2681 /* KSPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPhotoItem.h; sourceTree = "<group>"; };
+		49857CDF2011BE0B009B2681 /* KSPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPhotoBrowser.m; sourceTree = "<group>"; };
+		49857CE02011BE0B009B2681 /* KSProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSProgressLayer.h; sourceTree = "<group>"; };
+		49857CE12011BE0B009B2681 /* KSPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPhotoView.m; sourceTree = "<group>"; };
+		49857CE22011BE0B009B2681 /* KSProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSProgressLayer.m; sourceTree = "<group>"; };
+		49857CE32011BE0B009B2681 /* KSYYImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYYImageManager.m; sourceTree = "<group>"; };
+		49857CE42011BE0B009B2681 /* KSPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPhotoView.h; sourceTree = "<group>"; };
+		49857CE52011BE0B009B2681 /* KSImageManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSImageManagerProtocol.h; sourceTree = "<group>"; };
+		49857CE62011BE0B009B2681 /* KSPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPhotoBrowser.h; sourceTree = "<group>"; };
+		49857CE72011BE0B009B2681 /* KSPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPhotoItem.m; sourceTree = "<group>"; };
+		49857CE82011BE0B009B2681 /* KSYYImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYYImageManager.h; sourceTree = "<group>"; };
+		49857CEE2011BE2B009B2681 /* BKUploadImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKUploadImageCell.h; sourceTree = "<group>"; };
+		49857CEF2011BE2B009B2681 /* BKUploadImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKUploadImageCell.m; sourceTree = "<group>"; };
+		49857CF12011BEA7009B2681 /* BKUploadAddCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKUploadAddCell.h; sourceTree = "<group>"; };
+		49857CF22011BEA7009B2681 /* BKUploadAddCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKUploadAddCell.m; sourceTree = "<group>"; };
+		49857CF42011BEEC009B2681 /* BKUploadImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKUploadImageModel.h; sourceTree = "<group>"; };
+		49857CF52011BEEC009B2681 /* BKUploadImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKUploadImageModel.m; sourceTree = "<group>"; };
+		49857CF82011D170009B2681 /* BKSystemCameraPhotoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKSystemCameraPhotoTool.h; sourceTree = "<group>"; };
+		49857CF92011D170009B2681 /* BKSystemCameraPhotoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKSystemCameraPhotoTool.m; sourceTree = "<group>"; };
+		49857CFE2011EF7F009B2681 /* BKProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKProgressBarView.m; sourceTree = "<group>"; };
+		49857CFF2011EF7F009B2681 /* BKProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKProgressBarView.h; sourceTree = "<group>"; };
+		49FA353020108C34007D6B46 /* BKUploadCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKUploadCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FA353320108C34007D6B46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49FA353420108C34007D6B46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49FA353620108C34007D6B46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49FA353720108C34007D6B46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49FA353A20108C34007D6B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49FA353C20108C34007D6B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49FA353F20108C34007D6B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49FA354120108C34007D6B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FA354220108C34007D6B46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49FA354B20108C5D007D6B46 /* BKUploadCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKUploadCollectionView.h; sourceTree = "<group>"; };
+		49FA354C20108C5D007D6B46 /* BKUploadCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKUploadCollectionView.m; sourceTree = "<group>"; };
+		49FA354F2010906D007D6B46 /* imageerror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageerror.png; sourceTree = "<group>"; };
+		49FA35502010906D007D6B46 /* placeholderimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholderimage.png; sourceTree = "<group>"; };
+		49FA35512010906D007D6B46 /* placeholderimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholderimage@2x.png"; sourceTree = "<group>"; };
+		49FA35522010906D007D6B46 /* imageerror@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageerror@3x.png"; sourceTree = "<group>"; };
+		49FA35532010906D007D6B46 /* addimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addimage@2x.png"; sourceTree = "<group>"; };
+		49FA35542010906D007D6B46 /* imageerror@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageerror@2x.png"; sourceTree = "<group>"; };
+		49FA35552010906E007D6B46 /* deleteimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteimage.png; sourceTree = "<group>"; };
+		49FA35562010906E007D6B46 /* addimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addimage.png; sourceTree = "<group>"; };
+		49FA35572010906E007D6B46 /* placeholderimage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholderimage@3x.png"; sourceTree = "<group>"; };
+		49FA35582010906E007D6B46 /* deleteimage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteimage@3x.png"; sourceTree = "<group>"; };
+		49FA35592010906E007D6B46 /* deleteimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteimage@2x.png"; sourceTree = "<group>"; };
+		49FA355A2010906E007D6B46 /* addimage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addimage@3x.png"; sourceTree = "<group>"; };
+		68337BC083D00C1E4932C89B /* libPods-BKUploadCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BKUploadCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0830C2312709DB383F05253 /* Pods-BKUploadCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKUploadCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKUploadCollectionView/Pods-BKUploadCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49FA352D20108C34007D6B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD933FA537BBF022AEE0089 /* libPods-BKUploadCollectionView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455B610F615D74AFC0C48439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D0E6AB2D3F4E8D3673559B /* Pods-BKUploadCollectionView.debug.xcconfig */,
+				F0830C2312709DB383F05253 /* Pods-BKUploadCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49857CDC2011B089009B2681 /* UplaodView */ = {
+			isa = PBXGroup;
+			children = (
+				49FA354B20108C5D007D6B46 /* BKUploadCollectionView.h */,
+				49FA354C20108C5D007D6B46 /* BKUploadCollectionView.m */,
+				49857CEE2011BE2B009B2681 /* BKUploadImageCell.h */,
+				49857CEF2011BE2B009B2681 /* BKUploadImageCell.m */,
+				49857CF12011BEA7009B2681 /* BKUploadAddCell.h */,
+				49857CF22011BEA7009B2681 /* BKUploadAddCell.m */,
+				49857CF42011BEEC009B2681 /* BKUploadImageModel.h */,
+				49857CF52011BEEC009B2681 /* BKUploadImageModel.m */,
+			);
+			path = UplaodView;
+			sourceTree = "<group>";
+		};
+		49857CDD2011B095009B2681 /* PhotoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				49857CE52011BE0B009B2681 /* KSImageManagerProtocol.h */,
+				49857CE62011BE0B009B2681 /* KSPhotoBrowser.h */,
+				49857CDF2011BE0B009B2681 /* KSPhotoBrowser.m */,
+				49857CDE2011BE0B009B2681 /* KSPhotoItem.h */,
+				49857CE72011BE0B009B2681 /* KSPhotoItem.m */,
+				49857CE42011BE0B009B2681 /* KSPhotoView.h */,
+				49857CE12011BE0B009B2681 /* KSPhotoView.m */,
+				49857CE02011BE0B009B2681 /* KSProgressLayer.h */,
+				49857CE22011BE0B009B2681 /* KSProgressLayer.m */,
+				49857CE82011BE0B009B2681 /* KSYYImageManager.h */,
+				49857CE32011BE0B009B2681 /* KSYYImageManager.m */,
+			);
+			path = PhotoPreview;
+			sourceTree = "<group>";
+		};
+		49857CF72011D111009B2681 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				49857CF82011D170009B2681 /* BKSystemCameraPhotoTool.h */,
+				49857CF92011D170009B2681 /* BKSystemCameraPhotoTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		49FA352720108C34007D6B46 = {
+			isa = PBXGroup;
+			children = (
+				49FA353220108C34007D6B46 /* BKUploadCollectionView */,
+				49FA353120108C34007D6B46 /* Products */,
+				455B610F615D74AFC0C48439 /* Pods */,
+				D559BAD1B2F4ED7046931281 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49FA353120108C34007D6B46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49FA353020108C34007D6B46 /* BKUploadCollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49FA353220108C34007D6B46 /* BKUploadCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				49857CF72011D111009B2681 /* Tool */,
+				49FA354E20108FFD007D6B46 /* resource */,
+				49FA354920108C3B007D6B46 /* View */,
+				49FA353320108C34007D6B46 /* AppDelegate.h */,
+				49FA353420108C34007D6B46 /* AppDelegate.m */,
+				49FA353620108C34007D6B46 /* ViewController.h */,
+				49FA353720108C34007D6B46 /* ViewController.m */,
+				49FA353920108C34007D6B46 /* Main.storyboard */,
+				49FA353C20108C34007D6B46 /* Assets.xcassets */,
+				49FA353E20108C34007D6B46 /* LaunchScreen.storyboard */,
+				49FA354120108C34007D6B46 /* Info.plist */,
+				49FA354220108C34007D6B46 /* main.m */,
+			);
+			path = BKUploadCollectionView;
+			sourceTree = "<group>";
+		};
+		49FA354920108C3B007D6B46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49857CFF2011EF7F009B2681 /* BKProgressBarView.h */,
+				49857CFE2011EF7F009B2681 /* BKProgressBarView.m */,
+				49857CDD2011B095009B2681 /* PhotoPreview */,
+				49857CDC2011B089009B2681 /* UplaodView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49FA354E20108FFD007D6B46 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				49FA35562010906E007D6B46 /* addimage.png */,
+				49FA35532010906D007D6B46 /* addimage@2x.png */,
+				49FA355A2010906E007D6B46 /* addimage@3x.png */,
+				49FA35552010906E007D6B46 /* deleteimage.png */,
+				49FA35592010906E007D6B46 /* deleteimage@2x.png */,
+				49FA35582010906E007D6B46 /* deleteimage@3x.png */,
+				49FA354F2010906D007D6B46 /* imageerror.png */,
+				49FA35542010906D007D6B46 /* imageerror@2x.png */,
+				49FA35522010906D007D6B46 /* imageerror@3x.png */,
+				49FA35502010906D007D6B46 /* placeholderimage.png */,
+				49FA35512010906D007D6B46 /* placeholderimage@2x.png */,
+				49FA35572010906E007D6B46 /* placeholderimage@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		D559BAD1B2F4ED7046931281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68337BC083D00C1E4932C89B /* libPods-BKUploadCollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49FA352F20108C34007D6B46 /* BKUploadCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FA354620108C34007D6B46 /* Build configuration list for PBXNativeTarget "BKUploadCollectionView" */;
+			buildPhases = (
+				E00F4FFBFF4377FCDC61B09E /* [CP] Check Pods Manifest.lock */,
+				49FA352C20108C34007D6B46 /* Sources */,
+				49FA352D20108C34007D6B46 /* Frameworks */,
+				49FA352E20108C34007D6B46 /* Resources */,
+				5091A0273D03DE5259628190 /* [CP] Embed Pods Frameworks */,
+				9E0FE37FB4119689F188013F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKUploadCollectionView;
+			productName = BKUploadCollectionView;
+			productReference = 49FA353020108C34007D6B46 /* BKUploadCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49FA352820108C34007D6B46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = bike;
+				TargetAttributes = {
+					49FA352F20108C34007D6B46 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49FA352B20108C34007D6B46 /* Build configuration list for PBXProject "BKUploadCollectionView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49FA352720108C34007D6B46;
+			productRefGroup = 49FA353120108C34007D6B46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49FA352F20108C34007D6B46 /* BKUploadCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49FA352E20108C34007D6B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FA35612010906E007D6B46 /* deleteimage.png in Resources */,
+				49FA355F2010906E007D6B46 /* addimage@2x.png in Resources */,
+				49FA355E2010906E007D6B46 /* imageerror@3x.png in Resources */,
+				49FA35642010906E007D6B46 /* deleteimage@3x.png in Resources */,
+				49FA354020108C34007D6B46 /* LaunchScreen.storyboard in Resources */,
+				49FA355C2010906E007D6B46 /* placeholderimage.png in Resources */,
+				49FA355D2010906E007D6B46 /* placeholderimage@2x.png in Resources */,
+				49FA35662010906E007D6B46 /* addimage@3x.png in Resources */,
+				49FA353D20108C34007D6B46 /* Assets.xcassets in Resources */,
+				49FA355B2010906E007D6B46 /* imageerror.png in Resources */,
+				49FA35652010906E007D6B46 /* deleteimage@2x.png in Resources */,
+				49FA35622010906E007D6B46 /* addimage.png in Resources */,
+				49FA35602010906E007D6B46 /* imageerror@2x.png in Resources */,
+				49FA353B20108C34007D6B46 /* Main.storyboard in Resources */,
+				49FA35632010906E007D6B46 /* placeholderimage@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5091A0273D03DE5259628190 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKUploadCollectionView/Pods-BKUploadCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0FE37FB4119689F188013F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKUploadCollectionView/Pods-BKUploadCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00F4FFBFF4377FCDC61B09E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49FA352C20108C34007D6B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49857CE92011BE0B009B2681 /* KSPhotoBrowser.m in Sources */,
+				49857CEA2011BE0B009B2681 /* KSPhotoView.m in Sources */,
+				49857CFA2011D170009B2681 /* BKSystemCameraPhotoTool.m in Sources */,
+				49FA354D20108C5D007D6B46 /* BKUploadCollectionView.m in Sources */,
+				49857CEC2011BE0B009B2681 /* KSYYImageManager.m in Sources */,
+				49857CED2011BE0B009B2681 /* KSPhotoItem.m in Sources */,
+				49857CF62011BEEC009B2681 /* BKUploadImageModel.m in Sources */,
+				49FA353820108C34007D6B46 /* ViewController.m in Sources */,
+				49857CF02011BE2B009B2681 /* BKUploadImageCell.m in Sources */,
+				49FA354320108C34007D6B46 /* main.m in Sources */,
+				49857D002011EF80009B2681 /* BKProgressBarView.m in Sources */,
+				49857CEB2011BE0B009B2681 /* KSProgressLayer.m in Sources */,
+				49FA353520108C34007D6B46 /* AppDelegate.m in Sources */,
+				49857CF32011BEA7009B2681 /* BKUploadAddCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49FA353920108C34007D6B46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49FA353A20108C34007D6B46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49FA353E20108C34007D6B46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49FA353F20108C34007D6B46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49FA354420108C34007D6B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49FA354520108C34007D6B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49FA354720108C34007D6B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D0E6AB2D3F4E8D3673559B /* Pods-BKUploadCollectionView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = BKUploadCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BiKe.BKUploadCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49FA354820108C34007D6B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0830C2312709DB383F05253 /* Pods-BKUploadCollectionView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = BKUploadCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BiKe.BKUploadCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49FA352B20108C34007D6B46 /* Build configuration list for PBXProject "BKUploadCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FA354420108C34007D6B46 /* Debug */,
+				49FA354520108C34007D6B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FA354620108C34007D6B46 /* Build configuration list for PBXNativeTarget "BKUploadCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FA354720108C34007D6B46 /* Debug */,
+				49FA354820108C34007D6B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49FA352820108C34007D6B46 /* Project object */;
+}
